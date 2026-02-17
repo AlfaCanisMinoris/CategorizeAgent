@@ -1,0 +1,318 @@
+[
+  {
+    "key": "SONAR-1",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "type": "CODE_SMELL",
+    "component": "src/sonar/provider.py",
+    "line": 88,
+    "message": "Cognitive complexity is too high",
+    "status": "OPEN",
+    "effort": 30,
+    "tags": [
+      "brain-overload"
+    ]
+  },
+  {
+    "key": "SONAR-2",
+    "rule": "python:S1541",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL",
+    "component": "src/sonar/provider.py",
+    "line": 12,
+    "message": "Function has too many parameters",
+    "status": "OPEN",
+    "effort": 15,
+    "tags": []
+  },
+  {
+    "key": "SONAR-3",
+    "rule": "python:S1192",
+    "severity": "MINOR",
+    "type": "CODE_SMELL",
+    "component": "src/utils/logging.py",
+    "line": 45,
+    "message": "String literal duplicated multiple times",
+    "status": "OPEN",
+    "effort": 5,
+    "tags": []
+  },
+  {
+    "key": "SONAR-4",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "type": "CODE_SMELL",
+    "component": "src/utils/logging.py",
+    "line": null,
+    "message": "Unused local variable",
+    "status": "OPEN",
+    "effort": 5,
+    "tags": []
+  },
+  {
+    "key": "SONAR-5",
+    "rule": "python:S2077",
+    "severity": "CRITICAL",
+    "type": "VULNERABILITY",
+    "component": "src/api/client.py",
+    "line": 102,
+    "message": "SQL injection vulnerability",
+    "status": "OPEN",
+    "effort": 45,
+    "tags": [
+      "security"
+    ]
+  },
+  {
+    "key": "SONAR-6",
+    "rule": "python:S2631",
+    "severity": "MAJOR",
+    "type": "BUG",
+    "component": "src/api/client.py",
+    "line": 77,
+    "message": "Use of insecure hash function",
+    "status": "OPEN",
+    "effort": 20,
+    "tags": [
+      "security"
+    ]
+  },
+  {
+    "key": "SONAR-7",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "type": "BUG",
+    "component": "src/api/client.py",
+    "line": 54,
+    "message": "Generic exception should not be thrown",
+    "status": "OPEN",
+    "effort": 10,
+    "tags": []
+  },
+  {
+    "key": "SONAR-8",
+    "rule": "python:S107",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL",
+    "component": "src/core/orchestrator.py",
+    "line": 34,
+    "message": "Too many parameters",
+    "status": "OPEN",
+    "effort": 15,
+    "tags": []
+  },
+  {
+    "key": "SONAR-9",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "type": "CODE_SMELL",
+    "component": "src/core/orchestrator.py",
+    "line": 90,
+    "message": "Cognitive complexity is too high",
+    "status": "OPEN",
+    "effort": 35,
+    "tags": []
+  },
+  {
+    "key": "SONAR-10",
+    "rule": "python:S2095",
+    "severity": "MAJOR",
+    "type": "BUG",
+    "component": "src/core/orchestrator.py",
+    "line": 61,
+    "message": "Resources should be closed",
+    "status": "OPEN",
+    "effort": 20,
+    "tags": []
+  },
+  {
+    "key": "SONAR-11",
+    "rule": "python:S4502",
+    "severity": "CRITICAL",
+    "type": "VULNERABILITY",
+    "component": "src/auth/token.py",
+    "line": 19,
+    "message": "JWT signature not validated",
+    "status": "OPEN",
+    "effort": 40,
+    "tags": [
+      "security"
+    ]
+  },
+  {
+    "key": "SONAR-12",
+    "rule": "python:S1313",
+    "severity": "MINOR",
+    "type": "CODE_SMELL",
+    "component": "src/auth/token.py",
+    "line": 5,
+    "message": "Hard-coded credentials",
+    "status": "OPEN",
+    "effort": 10,
+    "tags": [
+      "security"
+    ]
+  },
+  {
+    "key": "SONAR-13",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "type": "CODE_SMELL",
+    "component": "src/auth/token.py",
+    "line": null,
+    "message": "Unused variable",
+    "status": "OPEN",
+    "effort": 5,
+    "tags": []
+  },
+  {
+    "key": "SONAR-14",
+    "rule": "python:S1118",
+    "severity": "MAJOR",
+    "type": "BUG",
+    "component": "src/config/loader.py",
+    "line": 28,
+    "message": "Utility class should not have public constructor",
+    "status": "OPEN",
+    "effort": 10,
+    "tags": []
+  },
+  {
+    "key": "SONAR-15",
+    "rule": "python:S2068",
+    "severity": "CRITICAL",
+    "type": "VULNERABILITY",
+    "component": "src/config/loader.py",
+    "line": 14,
+    "message": "Hard-coded secret",
+    "status": "OPEN",
+    "effort": 30,
+    "tags": [
+      "security"
+    ]
+  },
+  {
+    "key": "SONAR-16",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "type": "BUG",
+    "component": "src/config/loader.py",
+    "line": 52,
+    "message": "Generic exception should not be thrown",
+    "status": "OPEN",
+    "effort": 10,
+    "tags": []
+  },
+  {
+    "key": "SONAR-17",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "type": "CODE_SMELL",
+    "component": "src/agents/categorize.py",
+    "line": 66,
+    "message": "Cognitive complexity is too high",
+    "status": "OPEN",
+    "effort": 25,
+    "tags": []
+  },
+  {
+    "key": "SONAR-18",
+    "rule": "python:S1541",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL",
+    "component": "src/agents/categorize.py",
+    "line": 18,
+    "message": "Too many parameters",
+    "status": "OPEN",
+    "effort": 10,
+    "tags": []
+  },
+  {
+    "key": "SONAR-19",
+    "rule": "python:S1192",
+    "severity": "MINOR",
+    "type": "CODE_SMELL",
+    "component": "src/agents/plan.py",
+    "line": 41,
+    "message": "String literal duplicated",
+    "status": "OPEN",
+    "effort": 5,
+    "tags": []
+  },
+  {
+    "key": "SONAR-20",
+    "rule": "python:S2095",
+    "severity": "MAJOR",
+    "type": "BUG",
+    "component": "src/agents/plan.py",
+    "line": 58,
+    "message": "Resource leak on exception path",
+    "status": "OPEN",
+    "effort": 20,
+    "tags": []
+  },
+  {
+    "key": "SONAR-21",
+    "rule": "python:S4502",
+    "severity": "CRITICAL",
+    "type": "VULNERABILITY",
+    "component": "src/agents/plan.py",
+    "line": 12,
+    "message": "Missing signature validation",
+    "status": "OPEN",
+    "effort": 40,
+    "tags": [
+      "security"
+    ]
+  },
+  {
+    "key": "SONAR-22",
+    "rule": "python:S1313",
+    "severity": "MINOR",
+    "type": "CODE_SMELL",
+    "component": "src/agents/plan.py",
+    "line": 7,
+    "message": "Hard-coded value",
+    "status": "OPEN",
+    "effort": 5,
+    "tags": []
+  },
+  {
+    "key": "SONAR-23",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "type": "CODE_SMELL",
+    "component": "src/agents/risk.py",
+    "line": 73,
+    "message": "High cognitive complexity",
+    "status": "OPEN",
+    "effort": 30,
+    "tags": []
+  },
+  {
+    "key": "SONAR-24",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "type": "BUG",
+    "component": "src/agents/risk.py",
+    "line": 49,
+    "message": "Generic exception thrown",
+    "status": "OPEN",
+    "effort": 10,
+    "tags": []
+  },
+  {
+    "key": "SONAR-25",
+    "rule": "python:S2068",
+    "severity": "CRITICAL",
+    "type": "VULNERABILITY",
+    "component": "src/agents/risk.py",
+    "line": 22,
+    "message": "Hard-coded password",
+    "status": "OPEN",
+    "effort": 35,
+    "tags": [
+      "security"
+    ]
+  }
+]
