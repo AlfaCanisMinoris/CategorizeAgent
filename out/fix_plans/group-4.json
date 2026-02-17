@@ -1,0 +1,22 @@
+{
+  "group_id": "group-4",
+  "issue_keys": [
+    "SONAR-9",
+    "SONAR-10",
+    "SONAR-8"
+  ],
+  "summary": "Plan to address high priority issues in 'High issues in src/core/orchestrator.py'.",
+  "steps": [
+    {
+      "goal": "Address issues in src/core/orchestrator.py",
+      "changes": [
+        "Identify the exact rule violations at the referenced line(s).",
+        "Apply minimal, low-risk refactor/fix to satisfy the Sonar rule.",
+        "Run unit tests and update/add tests if behavior changes."
+      ],
+      "files": [
+        "src/core/orchestrator.py"
+      ]
+    }
+  ]
+}

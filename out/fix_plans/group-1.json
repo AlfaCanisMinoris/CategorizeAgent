@@ -1,0 +1,22 @@
+{
+  "group_id": "group-1",
+  "issue_keys": [
+    "SONAR-5",
+    "SONAR-6",
+    "SONAR-7"
+  ],
+  "summary": "Plan to address high priority issues in 'High issues in src/api/client.py'.",
+  "steps": [
+    {
+      "goal": "Address issues in src/api/client.py",
+      "changes": [
+        "Identify the exact rule violations at the referenced line(s).",
+        "Apply minimal, low-risk refactor/fix to satisfy the Sonar rule.",
+        "Run unit tests and update/add tests if behavior changes."
+      ],
+      "files": [
+        "src/api/client.py"
+      ]
+    }
+  ]
+}

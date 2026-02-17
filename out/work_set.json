@@ -1,0 +1,93 @@
+{
+  "cycle_id": "cycle-2026-02-17T16:30:17Z",
+  "generated_at": "2026-02-17T16:30:17Z",
+  "policy": {
+    "max_groups": 5,
+    "max_issues_per_group": 8,
+    "avoid_file_overlap_between_groups": true
+  },
+  "groups": [
+    {
+      "group_id": "group-1",
+      "name": "High issues in src/api/client.py",
+      "priority": "high",
+      "rationale": "Grouped by file path to reduce merge-conflict risk; worst severity in group: CRITICAL.",
+      "issue_keys": [
+        "SONAR-5",
+        "SONAR-6",
+        "SONAR-7"
+      ],
+      "touched_files": [
+        "src/api/client.py"
+      ]
+    },
+    {
+      "group_id": "group-2",
+      "name": "High issues in src/auth/token.py",
+      "priority": "high",
+      "rationale": "Grouped by file path to reduce merge-conflict risk; worst severity in group: CRITICAL.",
+      "issue_keys": [
+        "SONAR-11",
+        "SONAR-12",
+        "SONAR-13"
+      ],
+      "touched_files": [
+        "src/auth/token.py"
+      ]
+    },
+    {
+      "group_id": "group-3",
+      "name": "High issues in src/agents/plan.py",
+      "priority": "high",
+      "rationale": "Grouped by file path to reduce merge-conflict risk; worst severity in group: CRITICAL.",
+      "issue_keys": [
+        "SONAR-21",
+        "SONAR-20",
+        "SONAR-19",
+        "SONAR-22"
+      ],
+      "touched_files": [
+        "src/agents/plan.py"
+      ]
+    },
+    {
+      "group_id": "group-4",
+      "name": "High issues in src/core/orchestrator.py",
+      "priority": "high",
+      "rationale": "Grouped by file path to reduce merge-conflict risk; worst severity in group: CRITICAL.",
+      "issue_keys": [
+        "SONAR-9",
+        "SONAR-10",
+        "SONAR-8"
+      ],
+      "touched_files": [
+        "src/core/orchestrator.py"
+      ]
+    },
+    {
+      "group_id": "group-5",
+      "name": "High issues in src/agents/risk.py",
+      "priority": "high",
+      "rationale": "Grouped by file path to reduce merge-conflict risk; worst severity in group: CRITICAL.",
+      "issue_keys": [
+        "SONAR-25",
+        "SONAR-23",
+        "SONAR-24"
+      ],
+      "touched_files": [
+        "src/agents/risk.py"
+      ]
+    }
+  ],
+  "omitted_issue_keys": [
+    "SONAR-1",
+    "SONAR-15",
+    "SONAR-17",
+    "SONAR-2",
+    "SONAR-14",
+    "SONAR-16",
+    "SONAR-18",
+    "SONAR-3",
+    "SONAR-4"
+  ]
+}

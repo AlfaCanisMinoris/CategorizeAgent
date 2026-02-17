@@ -1,0 +1,22 @@
+{
+  "group_id": "group-5",
+  "issue_keys": [
+    "SONAR-25",
+    "SONAR-23",
+    "SONAR-24"
+  ],
+  "summary": "Plan to address high priority issues in 'High issues in src/agents/risk.py'.",
+  "steps": [
+    {
+      "goal": "Address issues in src/agents/risk.py",
+      "changes": [
+        "Identify the exact rule violations at the referenced line(s).",
+        "Apply minimal, low-risk refactor/fix to satisfy the Sonar rule.",
+        "Run unit tests and update/add tests if behavior changes."
+      ],
+      "files": [
+        "src/agents/risk.py"
+      ]
+    }
+  ]
+}
