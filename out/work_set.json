@@ -1,6 +1,6 @@
 {
-  "cycle_id": "cycle-2026-02-17T16:30:17Z",
-  "generated_at": "2026-02-17T16:30:17Z",
+  "cycle_id": "final-demo",
+  "generated_at": "2026-02-17T00:00:00Z",
   "policy": {
     "max_groups": 5,
     "max_issues_per_group": 8,
